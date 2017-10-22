@@ -1,8 +1,0 @@
-build/
-cache/
-coverage/
-flow-typed/
-node_modules/
-temp/
-var/
-!.eslintrc.js
