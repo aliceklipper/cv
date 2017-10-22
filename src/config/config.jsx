@@ -8,4 +8,4 @@
 
 export const FALLBACK_LANGUAGE = 'en';
 export const DEFAULT_LANGUAGE = 'en';
-export const API_BASE = '//localhost:1337/api/v1.0';
+export const API_BASE = '/cv/api/v1.0';
