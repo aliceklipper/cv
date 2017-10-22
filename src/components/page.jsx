@@ -24,20 +24,22 @@ const StyledArticle = styled.article`
     width: ${widthPage}px;
     min-height: ${heightPage}px;
 
-    @media print {
-        margin: 0;
-        border-radius: 0;
-        box-shadow: none;
-        min-height: unset;
-    }
-
-    @media (max-width: ${widthPage + cell * cell}px) {
+    @media (max-width: 150mm) {
         width: 100%;
         margin: 0;
         border-radius: 0;
         box-shadow: none;
         min-height: unset;
         padding: ${cell}px;
+    }
+
+    @media print {
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+        min-height: unset;
+        padding: ${cellL2}px;
+        width: 100%;
     }
 `;
 

@@ -40,6 +40,14 @@ const globalCss = css`
         min-height: 100%;
         position: absolute;
     }
+
+    @media print {
+        html,
+        body,
+        #root {
+            height: unset;
+        }
+    }
 `;
 
 injectGlobal`${globalCss}`;

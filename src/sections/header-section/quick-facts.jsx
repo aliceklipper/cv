@@ -12,7 +12,7 @@ import styled from 'styled-components';
 import localize from '../../lib/localize';
 import type { LocalizeProps } from '../../lib/localize';
 
-import { cell, cellS2, widthPage } from '../../config/css';
+import { cell, cellS2 } from '../../config/css';
 
 export type QuickFactsProps = LocalizeProps;
 
@@ -22,7 +22,7 @@ const StyledFlex = styled.div`
     display: flex;
     flex-direction: row;
 
-    @media (max-width: ${widthPage + cell * cell}px) {
+    @media (max-width: 150mm) {
         flex-direction: column;
     }
 `;
@@ -35,7 +35,7 @@ const StyledDiv = styled.div`
         margin-left: 0;
     }
 
-    @media (max-width: ${widthPage + cell * cell}px) {
+    @media (max-width: 150mm) {
         margin-left: 0;
     }
 `;

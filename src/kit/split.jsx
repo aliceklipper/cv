@@ -11,7 +11,7 @@ import styled from 'styled-components';
 
 import type { Node } from 'react';
 
-import { cell, widthSplitRight, widthPage } from '../config/css';
+import { cell, widthSplitRight } from '../config/css';
 
 export type SplitProps = {
     children: Node,
@@ -27,7 +27,7 @@ const StyledDiv = styled.div`
         margin-top: 0;
     }
 
-    @media (max-width: ${widthPage + cell * cell}px) {
+    @media (max-width: 150mm) {
         flex-direction: column-reverse;
     }
 `;
@@ -39,7 +39,7 @@ const StyledRight = styled.div`
     border-left: 1px solid;
     padding-left: ${cell - 1}px;
 
-    @media (max-width: ${widthPage + cell * cell}px) {
+    @media (max-width: 150mm) {
         border: none;
         padding: 0 0 ${cell}px;
         margin: 0 auto;
