@@ -1,7 +1,7 @@
 {
     "name": "@aliceklipper/cv",
     "description": "cv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "build/index.js",
     "author": "Alice Klipper <aliceklipper@yandex.com> (https://t.me/aliceklipper)",
     "license": "MIT",
