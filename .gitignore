@@ -1,0 +1,24 @@
+###############
+## IDE stuff ##
+###############
+
+# IDEA
+.idea/
+*.iml
+
+#####################
+## Ecosystem stuff ##
+#####################
+
+# NodeJS
+node_modules/
+
+##################
+## Poject stuff ##
+##################
+
+build/
+cache/
+coverage/
+temp/
+var/

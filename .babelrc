@@ -1,0 +1,68 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "useBuildIns": true,
+                "targets": {
+                    "browsers": [
+                        "chrome >= 59"
+                    ]
+                },
+                "modules": false
+            }
+        ],
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        "partial-application",
+        "flow-runtime",
+        "ramda",
+        [
+            "styled-components",
+            {
+                "preprocess": true
+            }
+        ]
+    ],
+    "env": {
+        "production": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "useBuildIns": true,
+                        "targets": {
+                            "browsers": [
+                                "last 2 versions"
+                            ]
+                        },
+                        "modules": false
+                    }
+                ],
+                "react",
+                "stage-0"
+            ],
+            "plugins": [
+                "partial-application",
+                "flow-runtime",
+                "ramda",
+                [
+                    "styled-components",
+                    {
+                        "preprocess": true
+                    }
+                ],
+                [
+                    "groundskeeper-willie",
+                    {
+                        "removeConsole": true,
+                        "removeDebugger": true,
+                        "removePragma": false
+                    }
+                ]
+            ]
+        }
+    }
+}
