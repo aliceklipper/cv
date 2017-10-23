@@ -54,11 +54,6 @@
                 "name": "parkomatik",
                 "title": "Parkomatik",
                 "description": "Developed one of microservices for automatic parking device."
-            },
-            {
-                "name": "banks",
-                "title": "Banks",
-                "description": "Consulted on development of some banks' frontends."
             }
         ]
     }
